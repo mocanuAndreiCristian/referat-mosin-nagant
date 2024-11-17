@@ -1,0 +1,50 @@
+body {
+    background-color: #dbad74;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+}
+
+p > span {
+    font-weight: bold;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    margin-inline: auto;
+    width: 50vw;
+    min-height: 100vh;
+    padding: 0 8px;
+    background-color: #ffcd90;
+}
+
+h1 {
+    text-align: center;
+}
+
+.more-info {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.more-info:hover {
+    cursor: help;
+}
+
+#main-image {
+    z-index: 1;
+    position: absolute;
+    top: 40vh;
+    right: 2.5vw;
+    width: 85vh;
+    rotate: 90deg;
+}
+
+iframe {
+    z-index: 1;
+    position: absolute;
+    top: 97.5vh;
+    right: 2.5vw;
+}
